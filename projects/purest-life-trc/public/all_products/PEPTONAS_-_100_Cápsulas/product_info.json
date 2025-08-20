@@ -1,0 +1,130 @@
+{
+  "url": "https://morethanpure.mx/collections/frontpage/products/peptonas",
+  "title": "PEPTONAS - 100 Cápsulas",
+  "images": [
+    "Sodio_16-desktop-1.png",
+    "Sodio_16-desktop-2.png",
+    "Sodio_16-mobile.png",
+    "26-desktop-1.png",
+    "26-desktop-2.png",
+    "26-mobile.png",
+    "27-desktop-1.png",
+    "27-desktop-2.png",
+    "27-mobile.png",
+    "28-desktop-1.png",
+    "28-desktop-2.png",
+    "28-mobile.png",
+    "29-desktop-1.png",
+    "29-desktop-2.png",
+    "29-mobile.png"
+  ],
+  "image_urls": [
+    "https://morethanpure.mx/cdn/shop/files/Sodio_16.png",
+    "https://morethanpure.mx/cdn/shop/files/Sodio_16.png?v=1746216909&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/26_00ccff40-b652-4528-a90b-899e536a937e.png",
+    "https://morethanpure.mx/cdn/shop/files/26_00ccff40-b652-4528-a90b-899e536a937e.png?v=1746216868&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/27_96f0dfec-acd6-4170-9a9a-c4a2fbacacb2.png",
+    "https://morethanpure.mx/cdn/shop/files/27_96f0dfec-acd6-4170-9a9a-c4a2fbacacb2.png?v=1746216868&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/28_6946ee6a-9a4a-47f1-876d-2e42fa6a13df.png",
+    "https://morethanpure.mx/cdn/shop/files/28_6946ee6a-9a4a-47f1-876d-2e42fa6a13df.png?v=1746216868&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/29_71462826-5958-46dc-b9b5-08b01abc4beb.png",
+    "https://morethanpure.mx/cdn/shop/files/29_71462826-5958-46dc-b9b5-08b01abc4beb.png?v=1746216868&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/Sodio_16.png?v=1746216909&width=416",
+    "https://morethanpure.mx/cdn/shop/files/26_00ccff40-b652-4528-a90b-899e536a937e.png?v=1746216868&width=416",
+    "https://morethanpure.mx/cdn/shop/files/27_96f0dfec-acd6-4170-9a9a-c4a2fbacacb2.png?v=1746216868&width=416",
+    "https://morethanpure.mx/cdn/shop/files/28_6946ee6a-9a4a-47f1-876d-2e42fa6a13df.png?v=1746216868&width=416",
+    "https://morethanpure.mx/cdn/shop/files/29_71462826-5958-46dc-b9b5-08b01abc4beb.png?v=1746216868&width=416"
+  ],
+  "rename_log": [
+    {
+      "old": "01_c57febb8.png",
+      "new": "Sodio_16-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/Sodio_16.png",
+      "width": 9999
+    },
+    {
+      "old": "02_c57febb8.png",
+      "new": "Sodio_16-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/Sodio_16.png?v=1746216909&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "11_9cb57cb1.png",
+      "new": "Sodio_16-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/Sodio_16.png?v=1746216909&width=416",
+      "width": 416
+    },
+    {
+      "old": "03_20c5c2fc.png",
+      "new": "26-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/26_00ccff40-b652-4528-a90b-899e536a937e.png",
+      "width": 9999
+    },
+    {
+      "old": "04_20c5c2fc.png",
+      "new": "26-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/26_00ccff40-b652-4528-a90b-899e536a937e.png?v=1746216868&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "12_0ea3c3a4.png",
+      "new": "26-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/26_00ccff40-b652-4528-a90b-899e536a937e.png?v=1746216868&width=416",
+      "width": 416
+    },
+    {
+      "old": "05_915dfeb4.png",
+      "new": "27-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/27_96f0dfec-acd6-4170-9a9a-c4a2fbacacb2.png",
+      "width": 9999
+    },
+    {
+      "old": "06_915dfeb4.png",
+      "new": "27-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/27_96f0dfec-acd6-4170-9a9a-c4a2fbacacb2.png?v=1746216868&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "13_039270ed.png",
+      "new": "27-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/27_96f0dfec-acd6-4170-9a9a-c4a2fbacacb2.png?v=1746216868&width=416",
+      "width": 416
+    },
+    {
+      "old": "07_8a771410.png",
+      "new": "28-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/28_6946ee6a-9a4a-47f1-876d-2e42fa6a13df.png",
+      "width": 9999
+    },
+    {
+      "old": "08_8a771410.png",
+      "new": "28-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/28_6946ee6a-9a4a-47f1-876d-2e42fa6a13df.png?v=1746216868&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "14_ec4025f0.png",
+      "new": "28-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/28_6946ee6a-9a4a-47f1-876d-2e42fa6a13df.png?v=1746216868&width=416",
+      "width": 416
+    },
+    {
+      "old": "09_a87162d5.png",
+      "new": "29-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/29_71462826-5958-46dc-b9b5-08b01abc4beb.png",
+      "width": 9999
+    },
+    {
+      "old": "10_a87162d5.png",
+      "new": "29-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/29_71462826-5958-46dc-b9b5-08b01abc4beb.png?v=1746216868&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "15_e513faa2.png",
+      "new": "29-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/29_71462826-5958-46dc-b9b5-08b01abc4beb.png?v=1746216868&width=416",
+      "width": 416
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "url": "https://morethanpure.mx/collections/frontpage/products/iso-woman-1-8-kg",
+  "title": "ISO WOMAN 1.8 kg",
+  "images": [
+    "25-desktop-1.png",
+    "25-desktop-2.png",
+    "25-mobile.png",
+    "2-desktop-1.png",
+    "2-desktop-2.png",
+    "2-mobile.png",
+    "26-desktop.png",
+    "26-mobile.png"
+  ],
+  "image_urls": [
+    "https://morethanpure.mx/cdn/shop/files/25.png",
+    "https://morethanpure.mx/cdn/shop/files/25.png?v=1745350218&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/2_64c41456-0ae5-4356-af25-6fbd294047c0.png",
+    "https://morethanpure.mx/cdn/shop/files/2_64c41456-0ae5-4356-af25-6fbd294047c0.png?v=1745350288&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/25.png?v=1745350218&width=416",
+    "https://morethanpure.mx/cdn/shop/files/26.png",
+    "https://morethanpure.mx/cdn/shop/files/26.png?v=1745350236&width=416",
+    "https://morethanpure.mx/cdn/shop/files/2_64c41456-0ae5-4356-af25-6fbd294047c0.png?v=1745350288&width=416"
+  ],
+  "rename_log": [
+    {
+      "old": "01_1d36074c.png",
+      "new": "25-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/25.png",
+      "width": 9999
+    },
+    {
+      "old": "02_1d36074c.png",
+      "new": "25-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/25.png?v=1745350218&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "05_8818b3d7.png",
+      "new": "25-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/25.png?v=1745350218&width=416",
+      "width": 416
+    },
+    {
+      "old": "03_df047cb0.png",
+      "new": "2-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/2_64c41456-0ae5-4356-af25-6fbd294047c0.png",
+      "width": 9999
+    },
+    {
+      "old": "04_df047cb0.png",
+      "new": "2-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/2_64c41456-0ae5-4356-af25-6fbd294047c0.png?v=1745350288&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "08_0368d3e6.png",
+      "new": "2-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/2_64c41456-0ae5-4356-af25-6fbd294047c0.png?v=1745350288&width=416",
+      "width": 416
+    },
+    {
+      "old": "06_fd09e883.png",
+      "new": "26-desktop.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/26.png",
+      "width": 9999
+    },
+    {
+      "old": "07_969af4c9.png",
+      "new": "26-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/26.png?v=1745350236&width=416",
+      "width": 416
+    }
+  ]
+}

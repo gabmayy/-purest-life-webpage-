@@ -1,0 +1,82 @@
+{
+  "url": "https://morethanpure.mx/collections/frontpage/products/whey-protein-2-2-kg-proteina-concentrada-para-masa-muscular-more-than-pure",
+  "title": "Whey Protein 2.2 kg",
+  "images": [
+    "22-desktop-1.png",
+    "22-desktop-2.png",
+    "22-mobile.png",
+    "24-desktop-1.png",
+    "24-desktop-2.png",
+    "24-mobile.png",
+    "2-desktop-1.png",
+    "2-desktop-2.png",
+    "2-mobile.png"
+  ],
+  "image_urls": [
+    "https://morethanpure.mx/cdn/shop/files/22.png",
+    "https://morethanpure.mx/cdn/shop/files/22.png?v=1745272483&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/24.png",
+    "https://morethanpure.mx/cdn/shop/files/24.png?v=1745272592&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/2.png",
+    "https://morethanpure.mx/cdn/shop/files/2.png?v=1745272592&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/22.png?v=1745272483&width=416",
+    "https://morethanpure.mx/cdn/shop/files/24.png?v=1745272592&width=416",
+    "https://morethanpure.mx/cdn/shop/files/2.png?v=1745272592&width=416"
+  ],
+  "rename_log": [
+    {
+      "old": "01_6bb5164a.png",
+      "new": "22-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/22.png",
+      "width": 9999
+    },
+    {
+      "old": "02_6bb5164a.png",
+      "new": "22-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/22.png?v=1745272483&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "07_df5ee429.png",
+      "new": "22-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/22.png?v=1745272483&width=416",
+      "width": 416
+    },
+    {
+      "old": "03_28cc927f.png",
+      "new": "24-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/24.png",
+      "width": 9999
+    },
+    {
+      "old": "04_28cc927f.png",
+      "new": "24-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/24.png?v=1745272592&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "08_3098d148.png",
+      "new": "24-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/24.png?v=1745272592&width=416",
+      "width": 416
+    },
+    {
+      "old": "05_df047cb0.png",
+      "new": "2-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/2.png",
+      "width": 9999
+    },
+    {
+      "old": "06_df047cb0.png",
+      "new": "2-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/2.png?v=1745272592&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "09_0368d3e6.png",
+      "new": "2-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/2.png?v=1745272592&width=416",
+      "width": 416
+    }
+  ]
+}

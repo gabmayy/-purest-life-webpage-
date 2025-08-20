@@ -1,0 +1,114 @@
+{
+  "url": "https://morethanpure.mx/collections/frontpage/products/colageno-hidrolizado-300g",
+  "title": "Colágeno Hidrolizado 300g",
+  "images": [
+    "21-desktop-1.png",
+    "21-desktop-2.png",
+    "21-mobile.png",
+    "23-desktop-1.png",
+    "23-desktop-2.png",
+    "23-mobile.png",
+    "8-desktop-1.png",
+    "8-desktop-2.png",
+    "8-mobile.png",
+    "20-desktop.png",
+    "20-mobile.png",
+    "22-desktop.png",
+    "22-mobile.png"
+  ],
+  "image_urls": [
+    "https://morethanpure.mx/cdn/shop/files/21.png",
+    "https://morethanpure.mx/cdn/shop/files/21.png?v=1746051493&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/23_001bca49-45b2-4bf8-b536-cf9f15973232.png",
+    "https://morethanpure.mx/cdn/shop/files/23_001bca49-45b2-4bf8-b536-cf9f15973232.png?v=1746051493&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/8_87641a3c-5f76-4339-a332-3f083b5aaa05.png",
+    "https://morethanpure.mx/cdn/shop/files/8_87641a3c-5f76-4339-a332-3f083b5aaa05.png?v=1746051493&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/21.png?v=1746051493&width=416",
+    "https://morethanpure.mx/cdn/shop/files/20.png",
+    "https://morethanpure.mx/cdn/shop/files/20.png?v=1746051493&width=416",
+    "https://morethanpure.mx/cdn/shop/files/22_3ddab51a-88eb-47e4-93be-a0828de62d12.png",
+    "https://morethanpure.mx/cdn/shop/files/22_3ddab51a-88eb-47e4-93be-a0828de62d12.png?v=1746051493&width=416",
+    "https://morethanpure.mx/cdn/shop/files/23_001bca49-45b2-4bf8-b536-cf9f15973232.png?v=1746051493&width=416",
+    "https://morethanpure.mx/cdn/shop/files/8_87641a3c-5f76-4339-a332-3f083b5aaa05.png?v=1746051493&width=416"
+  ],
+  "rename_log": [
+    {
+      "old": "01_b46e9f5e.png",
+      "new": "21-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/21.png",
+      "width": 9999
+    },
+    {
+      "old": "02_b46e9f5e.png",
+      "new": "21-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/21.png?v=1746051493&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "07_a091b47f.png",
+      "new": "21-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/21.png?v=1746051493&width=416",
+      "width": 416
+    },
+    {
+      "old": "03_377334a5.png",
+      "new": "23-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/23_001bca49-45b2-4bf8-b536-cf9f15973232.png",
+      "width": 9999
+    },
+    {
+      "old": "04_377334a5.png",
+      "new": "23-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/23_001bca49-45b2-4bf8-b536-cf9f15973232.png?v=1746051493&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "12_4ce7b45d.png",
+      "new": "23-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/23_001bca49-45b2-4bf8-b536-cf9f15973232.png?v=1746051493&width=416",
+      "width": 416
+    },
+    {
+      "old": "05_24c4e5cb.png",
+      "new": "8-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/8_87641a3c-5f76-4339-a332-3f083b5aaa05.png",
+      "width": 9999
+    },
+    {
+      "old": "06_24c4e5cb.png",
+      "new": "8-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/8_87641a3c-5f76-4339-a332-3f083b5aaa05.png?v=1746051493&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "13_09c51990.png",
+      "new": "8-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/8_87641a3c-5f76-4339-a332-3f083b5aaa05.png?v=1746051493&width=416",
+      "width": 416
+    },
+    {
+      "old": "08_cc09be68.png",
+      "new": "20-desktop.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/20.png",
+      "width": 9999
+    },
+    {
+      "old": "09_f40f3515.png",
+      "new": "20-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/20.png?v=1746051493&width=416",
+      "width": 416
+    },
+    {
+      "old": "10_90a40205.png",
+      "new": "22-desktop.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/22_3ddab51a-88eb-47e4-93be-a0828de62d12.png",
+      "width": 9999
+    },
+    {
+      "old": "11_6d447687.png",
+      "new": "22-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/22_3ddab51a-88eb-47e4-93be-a0828de62d12.png?v=1746051493&width=416",
+      "width": 416
+    }
+  ]
+}

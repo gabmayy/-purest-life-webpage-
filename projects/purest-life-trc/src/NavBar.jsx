@@ -15,13 +15,14 @@ export function NavBar() {
                 <ul className="navigation hide">
                   <li>
                     <button type="button">
-                      Product
+                      Catálogo
                       <svg
                         aria-hidden="true"
                         height={16}
                         viewBox="0 0 16 16"
                         version="1.1"
                         width={16}
+                        className="navbar-chevron"
                       >
                         <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
                       </svg>
@@ -173,23 +174,18 @@ export function NavBar() {
                     </div>
                   </li>
                   <li>
-                    <a href="#devs" title="Developers">
-                      Developers
+                    <a href="#devs" title="Nosotros">
+                      Nosotros
                     </a>
                   </li>
                   <li>
-                    <a href="#pricing" title="Pricing">
-                      Pricing
+                    <a href="#pricing" title="Contacto">
+                      Contacto
                     </a>
                   </li>
                   <li>
-                    <a href="#docs" title="Docs">
-                      Docs
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#blog" title="Blog">
-                      Blog
+                    <a href="#docs" title="Formas de pago">
+                      Formas de Pago
                     </a>
                   </li>
                 </ul>

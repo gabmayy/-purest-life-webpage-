@@ -29,7 +29,7 @@ export function Footer() {
           <div className="contact-info">
             <div className="contact-item">
               <Phone size={18} />
-              <span>+52 871 123 4567</span>
+              <span>+52 870 168 3352</span>
             </div>
             <div className="contact-item">
               <Mail size={18} />

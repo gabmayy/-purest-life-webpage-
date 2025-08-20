@@ -37,7 +37,7 @@
   position: relative;
   overflow: hidden;
   width: 100vw;
-  height: calc(100vh - var(--navbar-height));
+  height: 75vh;
   margin: 0;
   padding: 0;
   left: 50%;
@@ -232,7 +232,7 @@
 
 .text-center {
   text-align: center;
-  color: #fff;
+  color: var(--primary);
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
@@ -666,8 +666,13 @@ body {
   }
 }
 
+.navbar-chevron {
+  display: none;
+}
+
 /* dropdown menu */
 .dropdown__wrapper {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;

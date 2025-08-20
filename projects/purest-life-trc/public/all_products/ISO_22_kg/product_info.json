@@ -1,0 +1,114 @@
+{
+  "url": "https://morethanpure.mx/collections/frontpage/products/iso-2-2-kg",
+  "title": "ISO+ 2.2 kg",
+  "images": [
+    "16-desktop-1.png",
+    "16-desktop-2.png",
+    "16-mobile.png",
+    "19-desktop-1.png",
+    "19-desktop-2.png",
+    "19-mobile.png",
+    "3-desktop-1.png",
+    "3-desktop-2.png",
+    "3-mobile.png",
+    "18-desktop.png",
+    "18-mobile.png",
+    "17-desktop.png",
+    "17-mobile.png"
+  ],
+  "image_urls": [
+    "https://morethanpure.mx/cdn/shop/files/16.png",
+    "https://morethanpure.mx/cdn/shop/files/16.png?v=1746052266&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/19_fba87202-f686-4f33-a302-82522730b7a8.png",
+    "https://morethanpure.mx/cdn/shop/files/19_fba87202-f686-4f33-a302-82522730b7a8.png?v=1746052266&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/3_4a2ef312-7a15-4ae6-b2ca-0578583c234d.png",
+    "https://morethanpure.mx/cdn/shop/files/3_4a2ef312-7a15-4ae6-b2ca-0578583c234d.png?v=1746052139&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/16.png?v=1746052266&width=416",
+    "https://morethanpure.mx/cdn/shop/files/18.png",
+    "https://morethanpure.mx/cdn/shop/files/18.png?v=1746052266&width=416",
+    "https://morethanpure.mx/cdn/shop/files/17.png",
+    "https://morethanpure.mx/cdn/shop/files/17.png?v=1746052266&width=416",
+    "https://morethanpure.mx/cdn/shop/files/19_fba87202-f686-4f33-a302-82522730b7a8.png?v=1746052266&width=416",
+    "https://morethanpure.mx/cdn/shop/files/3_4a2ef312-7a15-4ae6-b2ca-0578583c234d.png?v=1746052139&width=416"
+  ],
+  "rename_log": [
+    {
+      "old": "01_419f91e2.png",
+      "new": "16-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/16.png",
+      "width": 9999
+    },
+    {
+      "old": "02_419f91e2.png",
+      "new": "16-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/16.png?v=1746052266&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "07_c9344196.png",
+      "new": "16-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/16.png?v=1746052266&width=416",
+      "width": 416
+    },
+    {
+      "old": "03_04c5cdfd.png",
+      "new": "19-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/19_fba87202-f686-4f33-a302-82522730b7a8.png",
+      "width": 9999
+    },
+    {
+      "old": "04_04c5cdfd.png",
+      "new": "19-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/19_fba87202-f686-4f33-a302-82522730b7a8.png?v=1746052266&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "12_61cbe613.png",
+      "new": "19-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/19_fba87202-f686-4f33-a302-82522730b7a8.png?v=1746052266&width=416",
+      "width": 416
+    },
+    {
+      "old": "05_86e31c87.png",
+      "new": "3-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/3_4a2ef312-7a15-4ae6-b2ca-0578583c234d.png",
+      "width": 9999
+    },
+    {
+      "old": "06_86e31c87.png",
+      "new": "3-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/3_4a2ef312-7a15-4ae6-b2ca-0578583c234d.png?v=1746052139&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "13_d61d975b.png",
+      "new": "3-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/3_4a2ef312-7a15-4ae6-b2ca-0578583c234d.png?v=1746052139&width=416",
+      "width": 416
+    },
+    {
+      "old": "08_8a009520.png",
+      "new": "18-desktop.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/18.png",
+      "width": 9999
+    },
+    {
+      "old": "09_69cc7ba8.png",
+      "new": "18-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/18.png?v=1746052266&width=416",
+      "width": 416
+    },
+    {
+      "old": "10_d53763d1.png",
+      "new": "17-desktop.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/17.png",
+      "width": 9999
+    },
+    {
+      "old": "11_679eb335.png",
+      "new": "17-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/17.png?v=1746052266&width=416",
+      "width": 416
+    }
+  ]
+}

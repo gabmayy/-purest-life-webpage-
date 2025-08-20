@@ -1,13 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export function Card({ children, price, description, imageName }) {
+export function Card({ children, price, description, imageName, folderName }) {
   return (
     <div
       className="card h-100 mx-auto custom-card"
       style={{ maxWidth: "16rem" }}
     >
       <img
-        src={`public/${imageName}.webp`}
+        src={`public/all_products/${folderName}/${imageName}.png`}
         className="card-img-top"
         alt={children}
       />

@@ -1,0 +1,82 @@
+{
+  "url": "https://morethanpure.mx/collections/frontpage/products/creatina-monohidratada-1k",
+  "title": "Creatina Monohidratada 1K",
+  "images": [
+    "7-desktop-1.png",
+    "7-desktop-2.png",
+    "7-mobile.png",
+    "8-desktop-1.png",
+    "8-desktop-2.png",
+    "8-mobile.png",
+    "5-desktop-1.png",
+    "5-desktop-2.png",
+    "5-mobile.png"
+  ],
+  "image_urls": [
+    "https://morethanpure.mx/cdn/shop/files/7_b01bd8d2-eb91-4e17-9f2a-e8de15e887a0.png",
+    "https://morethanpure.mx/cdn/shop/files/7_b01bd8d2-eb91-4e17-9f2a-e8de15e887a0.png?v=1746052738&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/8.png",
+    "https://morethanpure.mx/cdn/shop/files/8.png?v=1746044541&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/5_7b14f61c-700b-4d51-b730-7527d201a28b.png",
+    "https://morethanpure.mx/cdn/shop/files/5_7b14f61c-700b-4d51-b730-7527d201a28b.png?v=1746052776&width=1946",
+    "https://morethanpure.mx/cdn/shop/files/7_b01bd8d2-eb91-4e17-9f2a-e8de15e887a0.png?v=1746052738&width=416",
+    "https://morethanpure.mx/cdn/shop/files/8.png?v=1746044541&width=416",
+    "https://morethanpure.mx/cdn/shop/files/5_7b14f61c-700b-4d51-b730-7527d201a28b.png?v=1746052776&width=416"
+  ],
+  "rename_log": [
+    {
+      "old": "01_0752fdf0.png",
+      "new": "7-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/7_b01bd8d2-eb91-4e17-9f2a-e8de15e887a0.png",
+      "width": 9999
+    },
+    {
+      "old": "02_0752fdf0.png",
+      "new": "7-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/7_b01bd8d2-eb91-4e17-9f2a-e8de15e887a0.png?v=1746052738&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "07_ecc724a9.png",
+      "new": "7-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/7_b01bd8d2-eb91-4e17-9f2a-e8de15e887a0.png?v=1746052738&width=416",
+      "width": 416
+    },
+    {
+      "old": "03_035de435.png",
+      "new": "8-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/8.png",
+      "width": 9999
+    },
+    {
+      "old": "04_035de435.png",
+      "new": "8-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/8.png?v=1746044541&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "08_a45bfeed.png",
+      "new": "8-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/8.png?v=1746044541&width=416",
+      "width": 416
+    },
+    {
+      "old": "05_15b572cb.png",
+      "new": "5-desktop-1.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/5_7b14f61c-700b-4d51-b730-7527d201a28b.png",
+      "width": 9999
+    },
+    {
+      "old": "06_15b572cb.png",
+      "new": "5-desktop-2.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/5_7b14f61c-700b-4d51-b730-7527d201a28b.png?v=1746052776&width=1946",
+      "width": 1946
+    },
+    {
+      "old": "09_5fb33237.png",
+      "new": "5-mobile.png",
+      "url": "https://morethanpure.mx/cdn/shop/files/5_7b14f61c-700b-4d51-b730-7527d201a28b.png?v=1746052776&width=416",
+      "width": 416
+    }
+  ]
+}

@@ -10,7 +10,7 @@ export default function ProductDetail({ product }) {
         {/* Galería */}
         <div className="product-gallery">
           <img
-            src={`public/${selectedImage}.webp`}
+            src={`public/${product.folderName}/${selectedImage}.png`}
             alt={product.title}
             className="main-image"
           />
@@ -18,7 +18,7 @@ export default function ProductDetail({ product }) {
             {product.images.map((img, index) => (
               <img
                 key={index}
-                src={`public/${img}.webp`}
+                src={`public/${product.folderName}/${img}.png`}
                 alt={`Vista ${index + 1}`}
                 className={`thumbnail ${selectedImage === img ? "active" : ""}`}
                 onClick={() => setSelectedImage(img)}
@@ -50,7 +50,7 @@ export default function ProductDetail({ product }) {
                 checked={purchaseType === "subscription"}
                 onChange={() => setPurchaseType("subscription")}
               />
-              Suscripción - Ahorra 20%
+              Mayoreo - Grandes Descuentos
             </label>
             <label>
               <input
