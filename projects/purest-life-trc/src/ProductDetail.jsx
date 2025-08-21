@@ -10,7 +10,7 @@ export default function ProductDetail({ product }) {
         {/* Galería */}
         <div className="product-gallery">
           <img
-            src={`public/${product.folderName}/${selectedImage}.png`}
+            src={`public/all_products/${product.folderName}/${selectedImage}.png`}
             alt={product.title}
             className="main-image"
           />
@@ -18,7 +18,7 @@ export default function ProductDetail({ product }) {
             {product.images.map((img, index) => (
               <img
                 key={index}
-                src={`public/${product.folderName}/${img}.png`}
+                src={`public/all_products/${product.folderName}/${img}.png`}
                 alt={`Vista ${index + 1}`}
                 className={`thumbnail ${selectedImage === img ? "active" : ""}`}
                 onClick={() => setSelectedImage(img)}

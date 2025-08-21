@@ -270,7 +270,9 @@
 
 .main-image {
   width: 100%;
+  aspect-ratio: 1/1;
   border-radius: 8px;
+  object-fit: contain;
 }
 
 .thumbnail-row {
@@ -1009,6 +1011,13 @@ body {
   .cart-btn,
   .buy-btn {
     width: 100%;
+  }
+
+  .thumbnail-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    gap: 0.5rem;
+    margin-top: 1rem;
   }
 
   .footer {
