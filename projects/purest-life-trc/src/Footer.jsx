@@ -47,7 +47,7 @@ export function Footer() {
           <h3 className="footer-title">Enlaces</h3>
           <ul className="footer-links">
             <li>
-              <a href="#inicio">Inicio</a>
+              <a href="#">Inicio</a>
             </li>
             <li>
               <a href="#catalogo">Catálogo</a>
@@ -56,7 +56,7 @@ export function Footer() {
               <a href="#nosotros">Nosotros</a>
             </li>
             <li>
-              <a href="#contacto">Contacto</a>
+              <a href="#footer-contacto">Contacto</a>
             </li>
           </ul>
         </div>

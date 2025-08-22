@@ -14,7 +14,8 @@
     "bootstrap": "^5.3.7",
     "lucide-react": "^0.539.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-image-magnify": "^2.7.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",

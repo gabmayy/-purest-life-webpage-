@@ -1,4 +1,27 @@
+import { useState } from "react";
+
 export function NavBar() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+    closeMobileMenu(); // Close mobile menu after clicking
+  };
+
   return (
     <>
       <section className="navbar">
@@ -12,9 +35,14 @@ export function NavBar() {
                 />
               </a>
               <nav>
-                <ul className="navigation hide">
+                <ul
+                  className={`navigation ${isMobileMenuOpen ? "mobile-open" : "hide"}`}
+                >
                   <li>
-                    <button type="button">
+                    <button
+                      type="button"
+                      onClick={() => scrollToSection("catalogo")}
+                    >
                       Catálogo
                       <svg
                         aria-hidden="true"
@@ -174,19 +202,28 @@ export function NavBar() {
                     </div>
                   </li>
                   <li>
-                    <a href="#devs" title="Nosotros">
+                    <button
+                      onClick={() => scrollToSection("nosotros")}
+                      className="nav-link-button"
+                    >
                       Nosotros
-                    </a>
+                    </button>
                   </li>
                   <li>
-                    <a href="#pricing" title="Contacto">
+                    <button
+                      onClick={() => scrollToSection("contacto")}
+                      className="nav-link-button"
+                    >
                       Contacto
-                    </a>
+                    </button>
                   </li>
                   <li>
-                    <a href="#docs" title="Formas de pago">
+                    <button
+                      onClick={() => scrollToSection("formas-pago")}
+                      className="nav-link-button"
+                    >
                       Formas de Pago
-                    </a>
+                    </button>
                   </li>
                 </ul>
               </nav>
@@ -200,27 +237,48 @@ export function NavBar() {
               </a>
             </div>
             <button
-              aria-label="Open menu"
+              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
               className="burger-menu"
               type="button"
+              onClick={toggleMobileMenu}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="icon icon-tabler icon-tabler-menu-2"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M4 6l16 0" />
-                <path d="M4 12l16 0" />
-                <path d="M4 18l16 0" />
-              </svg>
+              {isMobileMenuOpen ? (
+                // Close icon (X)
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={24}
+                  height={24}
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M18 6l-12 12" />
+                  <path d="M6 6l12 12" />
+                </svg>
+              ) : (
+                // Hamburger icon
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon icon-tabler icon-tabler-menu-2"
+                  width={24}
+                  height={24}
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M4 6l16 0" />
+                  <path d="M4 12l16 0" />
+                  <path d="M4 18l16 0" />
+                </svg>
+              )}
             </button>
           </div>
         </header>

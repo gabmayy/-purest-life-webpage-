@@ -1,18 +1,30 @@
 import React, { useState } from "react";
+import ReactImageMagnify from "react-image-magnify";
 
 export default function ProductDetail({ product }) {
   const [selectedImage, setSelectedImage] = useState(product.images[0]);
   const [purchaseType, setPurchaseType] = useState("subscription");
+  const imageUrl = `public/all_products/${product.folderName}/${selectedImage}.png`;
 
   return (
     <div className="product-page">
       <div className="product-container">
         {/* Galería */}
         <div className="product-gallery">
-          <img
-            src={`public/all_products/${product.folderName}/${selectedImage}.png`}
-            alt={product.title}
+          <ReactImageMagnify
             className="main-image"
+            {...{
+              smallImage: {
+                alt: product.title,
+                isFluidWidth: true,
+                src: imageUrl,
+              },
+              largeImage: {
+                src: imageUrl,
+                width: 800,
+                height: 800,
+              },
+            }}
           />
           <div className="thumbnail-row">
             {product.images.map((img, index) => (
@@ -38,7 +50,7 @@ export default function ProductDetail({ product }) {
           {/* Precios */}
           <div className="price">
             <span className="discount-price">${product.discountPrice}</span>
-            <span className="original-price">${product.price}</span>
+            {/* <span className="original-price">${product.price}</span> */}
           </div>
 
           {/* Opciones */}

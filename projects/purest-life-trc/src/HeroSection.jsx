@@ -12,7 +12,7 @@ export function HeroSection() {
         <h1>Welcome to Purest Life</h1>
         <p>Your journey to wellness starts here.</p>
         <div className="hero-buttons">
-          <CtaButton>Shop</CtaButton>
+          <CtaButton targetId="catalogo">Shop</CtaButton>
           <SecondaryButton>Contacto</SecondaryButton>
         </div>
       </div>

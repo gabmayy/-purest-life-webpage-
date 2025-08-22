@@ -13,7 +13,7 @@ export function Card({ children, price, description, imageName, folderName }) {
       />
       <div className="card-body">
         <h5 className="card-title">{children}</h5>
-        <h6 className="card-subtitle mb-2 text-muted">{price}</h6>
+        <h6 className="card-subtitle mb-2 text-muted">${price}</h6>
         <p className="card-text">{description}</p>
         <a className="btn btn-primary card-button">
           <span className="chevron"></span>
