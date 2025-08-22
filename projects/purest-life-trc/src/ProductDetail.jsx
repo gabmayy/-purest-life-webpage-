@@ -4,7 +4,7 @@ import ReactImageMagnify from "react-image-magnify";
 export default function ProductDetail({ product }) {
   const [selectedImage, setSelectedImage] = useState(product.images[0]);
   const [purchaseType, setPurchaseType] = useState("subscription");
-  const imageUrl = `public/all_products/${product.folderName}/${selectedImage}.png`;
+  const imageUrl = `/all_products/${product.folderName}/${selectedImage}.png`;
 
   return (
     <div className="product-page">
@@ -30,7 +30,7 @@ export default function ProductDetail({ product }) {
             {product.images.map((img, index) => (
               <img
                 key={index}
-                src={`public/all_products/${product.folderName}/${img}.png`}
+                src={`/all_products/${product.folderName}/${img}.png`}
                 alt={`Vista ${index + 1}`}
                 className={`thumbnail ${selectedImage === img ? "active" : ""}`}
                 onClick={() => setSelectedImage(img)}

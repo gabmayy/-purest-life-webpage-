@@ -5,7 +5,7 @@ export function HeroSection() {
   return (
     <section className="hero-section">
       <video autoPlay loop muted playsInline className="hero-video">
-        <source src="/public/hero_section_video.mp4" type="video/mp4" />
+        <source src="/hero_section_video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="hero-content">
