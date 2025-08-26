@@ -7,7 +7,7 @@ export function Card({ children, price, description, imageName, folderName }) {
       style={{ maxWidth: "16rem" }}
     >
       <img
-        src={`/all_products/${folderName}/${imageName}.png`}
+        src={`/all_products/${folderName}/${imageName}.webp`}
         className="card-img-top"
         alt={children}
       />
