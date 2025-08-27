@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import ReactImageMagnify from "react-image-magnify";
+import { ShopContext } from "./context/ShopContext";
+import { useNavigate } from "react-router-dom";
 
 export default function ProductDetail({ product }) {
   const [selectedImage, setSelectedImage] = useState(product.images[0]);
   const [purchaseType, setPurchaseType] = useState("subscription");
   const imageUrl = `/all_products/${product.folderName}/${selectedImage}.webp`;
+  const { addToCart, cartItems } = useContext(ShopContext);
+  const cartItemAmount = cartItems[product.id];
+  const navigate = useNavigate();
 
   return (
     <div className="product-page">
@@ -24,6 +29,11 @@ export default function ProductDetail({ product }) {
                 width: 800,
                 height: 800,
               },
+              isActivatedOnTouch: true,
+              shouldHideHintAfterFirstActivation: true,
+              isHintEnabled: true,
+              hintTextMouse: "Hover to Zoom",
+              hintTextTouch: "Hold to Zoom",
             }}
           />
           <div className="thumbnail-row">
@@ -49,7 +59,7 @@ export default function ProductDetail({ product }) {
 
           {/* Precios */}
           <div className="price">
-            <span className="discount-price">${product.discountPrice}</span>
+            <span className="discount-price">${product.wholesalePrice}</span>
             {/* <span className="original-price">${product.price}</span> */}
           </div>
 
@@ -77,8 +87,19 @@ export default function ProductDetail({ product }) {
 
           {/* Botones */}
           <div className="buttons">
-            <button className="cart-btn">Agregar al carrito</button>
-            <button className="buy-btn">Comprar ahora</button>
+            <button className="cart-btn" onClick={() => addToCart(product.id)}>
+              Agregar al carrito{" "}
+              {cartItemAmount > 0 && <> ({cartItemAmount})</>}
+            </button>
+            <button
+              className="buy-btn"
+              onClick={() => {
+                addToCart(product.id);
+                navigate("/cart");
+              }}
+            >
+              Comprar ahora
+            </button>
           </div>
 
           {/* Descripción */}

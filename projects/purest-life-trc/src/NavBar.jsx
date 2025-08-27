@@ -1,7 +1,12 @@
 import { useState } from "react";
+import { ShoppingCart } from "phosphor-react";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const navigate = useNavigate();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -32,6 +37,8 @@ export function NavBar() {
                 <img
                   src="/LOGO.png"
                   alt="logo fn comercializadora industrial"
+                  onClick={() => navigate("/")}
+                  style={{ cursor: "pointer" }}
                 />
               </a>
               <nav>
@@ -41,7 +48,12 @@ export function NavBar() {
                   <li>
                     <button
                       type="button"
-                      onClick={() => scrollToSection("catalogo")}
+                      onClick={() => {
+                        navigate("/");
+                        setTimeout(() => {
+                          scrollToSection("catalogo");
+                        }, 100);
+                      }}
                     >
                       Catálogo
                       <svg
@@ -219,7 +231,12 @@ export function NavBar() {
                   </li>
                   <li>
                     <button
-                      onClick={() => scrollToSection("formas-pago")}
+                      onClick={() => {
+                        navigate("/");
+                        setTimeout(() => {
+                          scrollToSection("formas-pago");
+                        }, 100);
+                      }}
                       className="nav-link-button"
                     >
                       Formas de Pago
@@ -227,6 +244,11 @@ export function NavBar() {
                   </li>
                 </ul>
               </nav>
+            </div>
+            <div className="shopping-cart">
+              <Link to="/cart">
+                <ShoppingCart size={32} color="#fff" />
+              </Link>
             </div>
             <div className="action-buttons hide">
               <a href="#log-in" title="Log in" className="secondary">
