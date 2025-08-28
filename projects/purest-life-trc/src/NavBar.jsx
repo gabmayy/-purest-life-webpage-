@@ -221,14 +221,14 @@ export function NavBar() {
                       Nosotros
                     </button>
                   </li>
-                  <li>
+                  {/* <li>
                     <button
                       onClick={() => scrollToSection("contacto")}
                       className="nav-link-button"
                     >
                       Contacto
                     </button>
-                  </li>
+                  </li> */}
                   <li>
                     <button
                       onClick={() => {
@@ -250,14 +250,14 @@ export function NavBar() {
                 <ShoppingCart size={32} color="#fff" />
               </Link>
             </div>
-            <div className="action-buttons hide">
+            {/* <div className="action-buttons hide">
               <a href="#log-in" title="Log in" className="secondary">
                 Sign in
               </a>
               <a href="#sign-up" title="Sign up" className="primary">
                 Start your project
               </a>
-            </div>
+            </div> */}
             <button
               aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
               className="burger-menu"

@@ -6,8 +6,14 @@ import { useNavigate } from "react-router-dom";
 export default function ProductDetail({ product }) {
   const [selectedImage, setSelectedImage] = useState(product.images[0]);
   const [purchaseType, setPurchaseType] = useState("subscription");
+  const { addToCart, cartItems, isWholesale, getProductPrice } =
+    useContext(ShopContext);
+
+  const currentPrice = getProductPrice(product);
+  const regularPrice = parseFloat(product.price);
+  const hasDiscount =
+    isWholesale && product.wholesalePrice && currentPrice < regularPrice;
   const imageUrl = `/all_products/${product.folderName}/${selectedImage}.webp`;
-  const { addToCart, cartItems } = useContext(ShopContext);
   const cartItemAmount = cartItems[product.id];
   const navigate = useNavigate();
 
@@ -53,18 +59,25 @@ export default function ProductDetail({ product }) {
         <div className="product-info">
           <h1>{product.title}</h1>
           <h3 className="subtitle">{product.subtitle}</h3>
-          <p className="rating">
+          {/* <p className="rating">
             ⭐ {product.rating} ({product.reviews} reseñas)
-          </p>
+          </p> */}
 
           {/* Precios */}
           <div className="price">
-            <span className="discount-price">${product.wholesalePrice}</span>
+            {hasDiscount ? (
+              <div className="price-with-discount">
+                <span className="original-price">${regularPrice}</span>
+                <span className="wholesale-price">${currentPrice}</span>
+              </div>
+            ) : (
+              <span className="current-price">${currentPrice}</span>
+            )}
             {/* <span className="original-price">${product.price}</span> */}
           </div>
 
           {/* Opciones */}
-          <div className="purchase-options">
+          {/* <div className="purchase-options">
             <label>
               <input
                 type="radio"
@@ -83,7 +96,7 @@ export default function ProductDetail({ product }) {
               />
               Compra única
             </label>
-          </div>
+          </div> */}
 
           {/* Botones */}
           <div className="buttons">
@@ -104,7 +117,9 @@ export default function ProductDetail({ product }) {
 
           {/* Descripción */}
           <div className="description">
-            <h4>Descripción del producto</h4>
+            <h4>
+              <b>Descripción del Producto</b>
+            </h4>
             <p>{product.description}</p>
           </div>
         </div>

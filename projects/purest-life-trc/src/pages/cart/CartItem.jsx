@@ -4,8 +4,19 @@ import "./cart.css";
 export const CartItem = (props) => {
   const { id, title, price, wholesalePrice, imageName, folderName } =
     props.data;
-  const { cartItems, addToCart, removeFromCart, updateCartItemCount } =
-    useContext(ShopContext);
+  const {
+    cartItems,
+    addToCart,
+    removeFromCart,
+    updateCartItemCount,
+    getProductPrice,
+    isWholesale,
+  } = useContext(ShopContext);
+
+  const currentPrice = getProductPrice(props.data);
+  const regularPrice = parseFloat(price);
+  const hasDiscount =
+    isWholesale && wholesalePrice && currentPrice < regularPrice;
 
   return (
     <div className="cart-item">
@@ -18,8 +29,17 @@ export const CartItem = (props) => {
         <p>
           <b>{title}</b>
         </p>
+        <div className="price-section">
+          {hasDiscount ? (
+            <div className="price-with-discount">
+              <p className="original-price">${regularPrice}</p>
+              <p className="wholesale-price">${currentPrice}</p>
+            </div>
+          ) : (
+            <p className="current-price">${currentPrice}</p>
+          )}
+        </div>
         {/* <p>Precio: ${wholesalePrice}</p> */}
-        <p> ${price}</p>
         <div className="countHandler">
           <button onClick={() => removeFromCart(id)}>-</button>
           <input

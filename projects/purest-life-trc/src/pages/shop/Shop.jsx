@@ -28,7 +28,7 @@ export function Shop() {
                     rating: 4.8,
                     reviews: 120,
                     price: card.price,
-                    wholesalePrice: card.price,
+                    wholesalePrice: card.wholesalePrice,
                     description: card.longDescription,
                     folderName: card.folderName,
                     images: card.images,
@@ -41,6 +41,7 @@ export function Shop() {
                   description={card.shortDescription}
                   imageName={card.imageName}
                   folderName={card.folderName}
+                  wholesalePrice={card.wholesalePrice}
                 >
                   {card.title}
                 </Card>

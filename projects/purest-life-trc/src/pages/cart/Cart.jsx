@@ -4,6 +4,7 @@ import { ShopContext } from "../../context/ShopContext";
 import { CartItem } from "./CartItem";
 import { useNavigate } from "react-router-dom";
 import "./cart.css";
+import WholesaleCodeInput from "../../WholesaleCodeInput";
 
 export const Cart = () => {
   const { cartItems, getTotalCartAmount, checkout, generateWhatsAppMessage } =
@@ -41,6 +42,9 @@ export const Cart = () => {
 
       {totalAmount > 0 ? (
         <div className="checkout">
+          <div className="wholesale-code-input-section">
+            <WholesaleCodeInput />
+          </div>
           <p> Subtotal: ${totalAmount} </p>
           <button onClick={() => navigate("/")}> Seguir Comprando </button>
           <button

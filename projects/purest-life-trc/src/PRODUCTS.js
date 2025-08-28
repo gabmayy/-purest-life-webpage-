@@ -3,7 +3,7 @@ export const PRODUCTS = [
     id: 1,
     title: "Whey Protein 2.2kg (chocolate)",
     shortDescription: "High-quality whey protein for muscle growth.", // for card
-    longDescription: "Discover a healthier lifestyle with Purest Life fucker.", // for modal
+    longDescription: "Discover a healthier lifestyle with Purest Life.", // for modal
     imageName: "main-desktop", // image for the card
     folderName: "Whey_Protein_22_kg", // folder name for the card and modal
     subtitle: "Subtítulo del producto",
@@ -38,7 +38,7 @@ export const PRODUCTS = [
     subtitle: "Subtítulo del producto",
     rating: 4.8,
     reviews: 120,
-    wholesalePrice: 80,
+    wholesalePrice: "400",
     images: [
       "main-desktop",
       "secondary-desktop",
@@ -85,7 +85,7 @@ export const PRODUCTS = [
     subtitle: "Subtítulo del producto",
     rating: 4.8,
     reviews: 120,
-    wholesalePrice: 80,
+    wholesalePrice: "333",
     images: [
       "main-desktop-vanilla",
       "secondary-desktop",
@@ -104,7 +104,7 @@ export const PRODUCTS = [
     subtitle: "Subtítulo del producto",
     rating: 4.8,
     reviews: 120,
-    wholesalePrice: 80,
+    wholesalePrice: "333",
     images: [
       "main-desktop-kiwi",
       "secondary-desktop",
@@ -123,7 +123,7 @@ export const PRODUCTS = [
     subtitle: "Subtítulo del producto",
     rating: 4.8,
     reviews: 120,
-    wholesalePrice: 80,
+    wholesalePrice: "333",
     images: [
       "main-desktop-capuccino",
       "secondary-desktop",
@@ -329,7 +329,7 @@ export const PRODUCTS = [
     subtitle: "Subtítulo del producto",
     rating: 4.8,
     reviews: 120,
-    wholesalePrice: 80,
+    wholesalePrice: "300",
     images: [
       "main-desktop",
       "secondary-desktop",
