@@ -24,7 +24,7 @@ export function Shop() {
                   setSelectedProduct({
                     id: card.id,
                     title: card.title,
-                    subtitle: "Subtítulo del producto",
+                    subtitle: card.subtitle,
                     rating: 4.8,
                     reviews: 120,
                     price: card.price,

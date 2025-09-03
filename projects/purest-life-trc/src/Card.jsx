@@ -48,10 +48,10 @@ export function Card({
         )}
 
         <p className="card-text">{description}</p>
-        <a className="btn btn-primary card-button">
-          <span className="chevron"></span>
-        </a>
       </div>
+      <a className="btn btn-primary card-button">
+        <span className="chevron"></span>
+      </a>
     </div>
   );
 }

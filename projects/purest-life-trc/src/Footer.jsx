@@ -37,7 +37,10 @@ export function Footer() {
             </div>
             <div className="contact-item">
               <MapPin size={18} />
-              <span>Torreón, Coahuila, México</span>
+              <span>
+                Tamazula 461 Parque Industrial Carlos A Herrera Araluce Gómez
+                Palacio, Durango. C.P. 35079
+              </span>
             </div>
           </div>
         </div>
